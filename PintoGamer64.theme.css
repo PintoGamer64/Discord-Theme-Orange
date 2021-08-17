@@ -1,0 +1,129 @@
+/**
+ * @name Discord Theme | Orange
+ * @version 1.0.0
+ * @author Pinto_Gamer64
+ * @authorLink https://github.com/PintoGamer64
+ * @description Tema Para Discord Personalizable
+ * @source https://github.com/PintoGamer64/Discord-Theme-Orange.git
+*/
+
+/* Font import */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+
+body{
+  color:#fff;
+--spotify-color: #58FAF4;
+}
+.winButtonClose-1HsbF-{
+border-radius: 0;
+}
+.withFrame-haYltI{
+background: #f800040;
+}
+.sansAttachButton-td2irx{
+background: #f800040;
+}
+.scroller-2LSbBU{
+  border-radius:0px;
+}
+.panel-24C3ux activityPanel-28dQGo{
+border-bottom: solid 1px #ff8000;
+}
+
+.wrapper-24pKcD{
+border-bottom: solid 1px #ff8000;
+}
+
+.panels-j1Uci_{
+border-bottom: solid 1px #ff8000;
+}
+
+.border-Jn5IOt{
+border-bottom: solid 3px #ff8000;
+}
+
+.pointerEvents-2zdfdO{
+fill: hsl(139, calc(var(--saturation-factor, 0.35) * 40.3%), 40.9%);
+}
+
+.userPopout-xaxa6l{
+border-bottom: solid 5px #ff8000;
+}
+
+.divider-ewBQKj{
+border-bottom: solid 2px #ff8000;
+}
+
+.title-3qD0b-{
+border-bottom: solid 5px #ff8000;
+}
+
+:root {
+/* Background image. Falls back to accent color if invalid.
+   To use an image on your computer, send it anywhere on Discord,
+   then right-click and Copy Link, then paste it between the ()'s'. */
+--dplus-background: #000;
+
+/* Accent color, used to decorate the UI with colors. */
+--dplus-accent-ui: #FF8000;
+--dplus-accent-ui-hover: #FF0000;
+
+/* Fonts */
+--dplus-font-ui: 'Poppins';
+--dplus-font-body: 'Roboto';
+--dplus-font-header: 'Righteous';
+
+/* Round corner sizes */
+--dplus-radius-ui: 0px;
+--dplus-radius-avatar: 5%;
+--dplus-radius-server: 5%;
+
+/* This determines margins and padding */
+--dplus-spacing-ui: 15px;
+--dplus-spacing-app: 10px;
+
+/* Icon sizes */
+--dplus-icon-avatar-chat: 20px;
+--dplus-icon-avatar-list: 40px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* Width of different elements | HUD */
+--dplus-channels-width: 240px;
+--dplus-members-width: 240px;
+--dplus-scrollbar-width: 15px;
+
+/* The Home icon */
+--dplus-icon-home-dark: url(https://i.pinimg.com/564x/b9/eb/06/b9eb06a18fb1cea5384d8ce2c0b66088.jpg);
+
+/* Blur porcentage.*/
+--dplus-blur-scale: 0;
+
+/* Background | Dark */
+--dplus-dark-bgc-ui-base: hsla(0, 0%, 6%, 0.75);
+--dplus-dark-bgc-ui-base-hover: hsla(0, 0%, 0%, 1);
+--dplus-dark-bgc-ui-card: hsla(0, 0%, 0%, 1);
+--dplus-dark-bgc-ui-card-hover: hsla(0, 0%, 0%, 0.40);
+--dplus-dark-bgc-chatmsg: hsla(0, 0%, 5%, 0.75);
+--dplus-dark-bgc-chatmsg-hover: hsla(0, 0%, 15%, 0.95);
+--dplus-dark-bgc-popout: hsla(0, 0%, 0%, 1);
+--dplus-dark-bgc-button: hsla(0, 0%, 100%, 0.50);
+--dplus-dark-bgc-button-hover: hsla(0, 0%, 0%, 1);
+--dplus-dark-bgc-server-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-server-button-hover: hsla(0, 0%, 20%, 0.60);
+
+/* Background | Light */
+--dplus-light-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
+--dplus-light-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
+--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
+--dplus-light-bgc-button: hsla(0, 0%, 50%, 0.80);
+--dplus-light-bgc-button-hover: hsla(0, 0%, 40%, 0.50);
+--dplus-light-bgc-server-button: hsla(0, 0%, 95%, 0.75);
+--dplus-light-bgc-server-button-hover: hsla(0, 0%, 100%, 1);
+}
